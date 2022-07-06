@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.background{
+    background-image: url(images/donation6.jpg);
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-text1{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.bg-text2{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+}
+.bg-text3{
+    display: grid;
+    height: 80px;
+    width: 250px;
+    background-image: linear-gradient(orange, tomato);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    place-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    border-radius: 10px;
+}
+.contant1{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 30px;
+}
+.contant2{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+.amount{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.donation{
+    box-shadow: 5px 5px 10px white;
+    margin-right: 20px;
+    padding: 30px;
+    background-color: bisque;
+}
+.select{
+    border: 2px solid crimson;
+    color: crimson;
+}
+.underline{
+    text-align: center;
+    margin-top: 50px;
+    color: gray;
+    font-size: 20px;
+}
+.devider{
+    width: 700px;
+    height: 2px;
+    background-color: gray;
+    display: inline-block;
+}
+.start{
+   text-align: center;
+   margin-top: 30px;
+}
+.link-button{
+    padding: 20px 50px;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 700;
+}
