@@ -10,38 +10,27 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.background{
+    text-align: center;
+}
 .bg-text1{
     font-size: 70px;
     font-weight: bold;
     color: white;
-    text-align: center;
     padding-top: 100px;
 }
 .bg-text2{
     font-size: 20px;
     color: white;
-    text-align: center;
-    padding: 5px 10px;
+    padding: 20px 10px;
 }
 .bg-text3{
-    display: grid;
-    height: 80px;
-    width: 250px;
-    background-image: linear-gradient(orange, tomato);
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    place-items: center;
-    font-size: 25px;
-    font-weight: 600;
-    font-family: sans-serif;
-    color: white;
     text-decoration: none;
-    letter-spacing: 3px;
+    color: white;
+    padding: 10px 30px;
+    background-color: tomato;
     border-radius: 10px;
+    font-weight: 600;
 }
 .contant1{
     text-align: center;
@@ -81,20 +70,57 @@
     display: inline-block;
 }
 .start{
-   text-align: center;
-   margin-top: 30px;
+    text-align: center;
+    margin-top: 20px;
 }
-.link-button{
-    padding: 20px 50px;
-    background-image: linear-gradient(orange, tomato);
+.honor{
+    text-decoration: none;
     color: white;
-    cursor: pointer;
+    padding: 10px 30px;
+    background-color: tomato;
     border-radius: 10px;
-    font-weight: 700;
+    font-weight: 600;
 }
 .plan{
     text-align: center;
-    margin-top: 100px;
-    font-size: 20px;
-    font-family: sans-serif;
+    margin-top: 30px;
+}
+.font{
+    font-size: 40px;
+}
+.box{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.food{
+    height: 2o0px;
+    width: 250px;
+    border: 1px solid gray;
+    margin-left: 30px;
+    box-shadow: 5px 5px 10px gray;
+    padding-left: 10px;
+    background-color: burlywood;
+}
+.help{
+    width: 50px;
+    padding: 15px;
+}
+.cloth{
+    height: 2o0px;
+    width: 250px;
+    border: 1px solid gray;
+    margin-left: 30px;
+    box-shadow: 5px 5px 10px gray;
+    padding-left: 10px;
+    background-color: plum;
+}
+.medicine{
+    height: 2o0px;
+    width: 250px;
+    border: 1px solid gray;
+    margin-left: 30px;
+    box-shadow: 5px 5px 10px gray;
+    padding-left: 10px;
+    background-color: darkgrey;
 }
